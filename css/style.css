@@ -1,40 +1,58 @@
-/* Google98-Logo style */
-#google-logo {
-    /* background-color: #ffffff;
-    text-align: center;
-    padding-top: 230px;
-    padding-bottom: 0px;
-    margin-bottom: 0px; */
+.main-section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 }
 
-/* Section and general */
-.main-section {
-    width: 900px;
-    height: 200px;
-    font-size: 25px;
+#search-p {
     text-align: center;
-    background-color: #c0c0c0;
+    width: 40%;
+    margin: auto;
+}
+
+#google-logo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+
 }
 
 #search-bar {
-    height: 35px;
+    padding: 4px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    border-radius: 3px;
 }
 
-/* BUTTON STYLE */
 .button {
-    color: #262626;
-    background-color: #c0c0c0;
-    font-size: 20px;
-    padding: 10px 50px;
-    margin-top: 100px;
-    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
 }
 
-.button:hover {
-    color: #2d63c8;
-    background-color: #ffffff;
+.article-g {
+    display: block;
+    text-align: center;
+    background-color: gainsboro;
+    margin: 0% 15%;
+    padding: 10px;
+}
+
+#triple-box {
+    margin: 0.5% 15%;
+    max-width: 80%;
+    max-height: 200px;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+
+.green-box {
+    background-color: rgb(61, 194, 194);
+    border: solid white 2px;
+    padding: 10px 30px;
+    flex: auto;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
 }
